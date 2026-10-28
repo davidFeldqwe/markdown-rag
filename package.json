@@ -1,0 +1,24 @@
+{
+  "name": "markdown-rag",
+  "version": "1.0.0",
+  "description": "A minimal Markdown RAG demo using the Vercel AI SDK",
+  "scripts": {
+    "index": "tsx main.ts index",
+    "ask": "tsx main.ts ask",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.104",
+    "ai": "^7.0.155",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
